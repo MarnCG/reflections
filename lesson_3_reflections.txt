@@ -1,0 +1,16 @@
+Set username and address explicitly:
+   git config --global user.name "Your Name"
+   git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+    git commit --amend --reset-author
+
+Initialized empty Git repository in C:/Users/noelle.mccreanor/version-control/recipes/.git/
+	git init
+	
+noelle.mccreanor (master #) reflections $ git add lesson_1_reflections.txt
+noelle.mccreanor (master +) reflections $ git add lesson_2_reflections.txt
+noelle.mccreanor (master +) reflections $ git status
+
+If you accidentally add a file to the staging area, you can remove it using git reset.
+	git reset lesson_2_reflections.txt
