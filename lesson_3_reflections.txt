@@ -14,3 +14,28 @@ noelle.mccreanor (master +) reflections $ git status
 
 If you accidentally add a file to the staging area, you can remove it using git reset.
 	git reset lesson_2_reflections.txt
+
+git init
+git add
+git status
+git commit
+
+
+git branch		#view branches
+git branch easy-mode 	#create a branch
+git checkout coins	#switch to a different branch
+git log --graph --oneline master easyode #compare branches logs
+
+git checkout -b new_branch_name
+combines git branch new_branch_name and git commit
+
+
+To merge
+	git merge master coins
+Diff a commit against its parent
+
+	git show ID_
+
+git merge --abort
+
+Windows users should set the global autocrlf attribute to true: git config --global core.autocrlf true
