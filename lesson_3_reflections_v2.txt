@@ -1,0 +1,17 @@
+https://github.com/MarnCG
+
++ Add repository called reflections
+
+Back in git hub repository reflections
+
+git remote			Empty as no remotes
+git remote add _name URL	Add the remote, if only one usually named origin, URL of remote repo.
+
+git remote add origin https://github.com/MarnCG/reflections.git
+git push -u origin master
+
+git remote -v			Check more info on remote repo. (verbose)
+
+git push remote local		Send changes from local branches to remote repo.
+
+git push origin master
